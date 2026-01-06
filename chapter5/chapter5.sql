@@ -1,5 +1,5 @@
-CREATE DATABASE chapter4 ;
-USE chapter4 ;
+CREATE DATABASE chapter5 ;
+USE chapter5 ;
 CREATE TABLE user_1
 (
     id_user_1 INT AUTO_INCREMENT PRIMARY KEY ,
