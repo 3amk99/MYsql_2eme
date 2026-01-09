@@ -1,0 +1,6 @@
+USE PROTOTYPE ;
+SELECT * FROM user_1 WHERE name_user_1 LIKE "EL%";
+id_user_1 ,name_user_1
+95        ,"EL JACK"
+96        ,"EL NOLAND"
+106       ,"EL MEHOCK"

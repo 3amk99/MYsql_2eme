@@ -1,0 +1,3 @@
+SELECT COUNT(A.id_article_1) AS number_id_article_1 , U.name_user_1 FROM article_1 AS A INNER JOIN user_1 AS U ON A.id_WWW_user_1 = U.id_user_1 WHERE name_user_1 = "AHMED ALAMI" ; 
+number_id_article_1 , name_user_1
+'1'                 , 'AHMED ALAMI'

@@ -1,0 +1,13 @@
+USE PROTOTYPE ;
+SELECT id_WWW_user_1, content_article_1, date_article_1 FROM article_1 WHERE id_WWW_user_1 >= 100 ORDER BY date_article_1 ASC ;
+
+id_WWW_user_1 ,content_article_1                                   ,date_article_1
+101           ,"Vegeta is also a Saiyan prince."                   ,2025-01-01
+102           ,"At first, Vegeta is an enemy of Goku."             ,2025-01-02
+103           ,"Later, Vegeta becomes Goku’s ally."                ,2025-01-03
+104           ,"Gohan is Goku’s son."                              ,2025-01-04
+105           ,"Gohan is very strong even as a child."             ,2025-01-05
+106           ,"Frieza is one of the most dangerous villains."     ,2025-01-06
+107           ,"Dragon Ball has many intense battles."             ,2025-01-07
+108           ,"Training is very important in Dragon Ball."        ,2025-01-08
+109           ,"Dragon Ball teaches friendship and perseverance."  ,2025-01-09
