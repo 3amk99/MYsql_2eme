@@ -139,7 +139,7 @@ SELECT MONTH(date_article_1) AS month_number , COUNT(*) AS number_of_articles FR
 
 UPDATE article_1 SET date_article_1 = "2026-01-02" WHERE id_WWW_user_1 = 145 ;
 
-ADD archived_1 TINYINT(1) NOT NULL DEFAULT 0;
+ALTER TABLE article_1 ADD archived_1 TINYINT(1) NOT NULL DEFAULT 0;
 
 UPDATE article_1 SET archived_1 = 1 WHERE id_WWW_user_1 = 145 ;
 
